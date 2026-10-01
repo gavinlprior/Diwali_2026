@@ -1,4 +1,8 @@
-# Welcome to the ReadMe file for the Northampton Bid Diwali puppet characters mini app. 2025
+# Welcome to the ReadMe file for the Northampton Bid Diwali puppet characters mini app. updated for 2026
+
+[UPDATES]
+* Romanian and Polish languages added, Oct 2026
+
 
 A series of buttons that, when individually pressed gives a sound bite for the given puppets history.
 For each puppet there are three languages that the user can listen to the sound bite in which are: English, Hindi, and Gujarati.  Each language can be accessed by the user simply by pressing the associated (toggle) language button on the top right of the screen.  All of the button characters description and the associated characters sound bite is then changed to the currently selected language.
@@ -32,6 +36,9 @@ style.css\
    --en (English soundbites here)\
    --guj (Gujarati soundbites here)\
    --hi (Hindi soundbites here)\
+   --pol (Polish soundbites here)\
+   --rom (Romanian soundbites here)\
+>
 -ButtonIcons\
 -Images\
    --footer_logos\
@@ -39,6 +46,8 @@ style.css\
 en = English\
 guj = Gujarati\
 hi = Hindi\
+pol = Polish\
+rom = Romanian
 
 =====
 

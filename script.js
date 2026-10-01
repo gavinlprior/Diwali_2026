@@ -39,6 +39,30 @@ document.addEventListener('DOMContentLoaded', () => {
             'audio09': 'દીવો',
             'fullStory': 'દિવાળીની વાર્તા',
         },
+        'pol': {
+            'audio01': 'Rama',
+            'audio02': 'Sita',
+            'audio03': 'Hanuman',
+            'audio04': 'Dżataju',
+            'audio05': 'Lakszmi',
+            'audio06': 'Rawana',
+            'audio07': 'Ganesza',
+            'audio08': 'Harminder',
+            'audio09': 'Diya',
+            'fullStory': 'Historia Diwali',
+        },
+        'rom': {
+            'audio01': 'Lordul Rama',
+            'audio02': 'Mata Sita',
+            'audio03': 'Hanuman',
+            'audio04': 'Jatayu',
+            'audio05': 'Lakshmi',
+            'audio06': 'Ravana',
+            'audio07': 'Ganesha',
+            'audio08': 'Harminder',
+            'audio09': 'Diya',
+            'fullStory': 'Povestea Diwali',
+        },
     };
 
     let currentlyPlayingAudio = null;

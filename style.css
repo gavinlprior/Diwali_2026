@@ -41,11 +41,11 @@ header nav a img {
 }
 
 .language-toggle {
-    display: flex;
-    /*align-items: center; */
-    flex-direction: column; /* Stack the buttons vertically */
-    align-items: flex-end; /* Align the buttons to the left */
-    gap: 5px; /* Spacing between the language buttons */
+    display: grid;
+    grid-template-columns: repeat(2, auto); /* Creates two columns based on content width */
+    gap: 5px; /* Spacing between rows and columns */
+    justify-content: end; /* Aligns the entire grid block to the right */
+    justify-items: end; /* Aligns the individual buttons to the right inside their grid cells */
 }
 
 .lang-button {
@@ -58,6 +58,8 @@ header nav a img {
     padding: 5px 10px;
     border-radius: 5px;
     transition: background-color 0.1s ease-in-out;
+    text-align: center; /* Keeps text centered inside each button capsule */
+    white-space: nowrap; /* Prevents button text from wrapping */
 }
 
 .lang-button:hover {
@@ -229,5 +231,5 @@ footer {
     object-fit: contain; /* Ensures the whole logo is visible without cropping */
     padding: 5px; /* Slight padding inside the container */
     border-radius: 5px;
-    //background-color: rgba(255, 255, 255, 0.9); /* Light background to help odd-shaped logos stand out */
+    /* background-color: rgba(255, 255, 255, 0.9); /* Light background to help odd-shaped logos stand out */
 }

@@ -13,9 +13,9 @@ The sound bite can be stopped mid flow by pressing the 'Stop' button that is ove
 >
 > When deploying files to server or a deeper folder structure, the existing relative file paths (like "style.css" or "Images/logo1.png") will often break.  To resolve this, the <base> tag (found at the top of Index.html file) tells the browser: "All relative file paths in this document should start from this specific URL." This makes the project portable and robust without having to adjust all of the relative paths in all the files which would be painful!
 So, you must update the href attribute on the <base> tag (which can be found at the top of the projects Index.html file) to the exact path where your project's top-level folder (the one containing index.html, style.css, and your asset folders) lives on the new domain.
->For example, if the new URL is https://anotherdomain.com/resources/diwali/2025/index.html, you would set the href to:
+>For example, if the new URL is https://anotherdomain.com/resources/diwali/2026/index.html, you would set the href to:
 >
-> base href="/resources/diwali/2025/"
+> base href="/resources/diwali/2026/"
 >
 > This will now correctly resolve to the files, regardless of how deep index.html itself is moved.  This needs to be done otherwise it won't work(!).
 
